@@ -24,6 +24,8 @@ After that, I connected my Windows machine using Elastic Agent to send its logs 
 
 I used Kibana to view and search the collected logs.
 
+![Log Ingestion in Discover](01-discover-logs.png)
+
 # What I Did
 
 During this project, I worked on:
@@ -38,11 +40,15 @@ During this project, I worked on:
 
 # Detection Rules
 
+![Active Detection Rules](02-rules-management.png)
+
 # Windows - Failed Logon Attempts
 
 I created a detection rule to monitor failed Windows login attempts using Event ID 4625.
 
 I tested it by entering an incorrect Windows password and checked the generated alerts in Kibana.
+
+![Rule Definition and KQL Query](03-rule-definition.png)
 
 # Potential Internal Linux SSH Brute Force Detected
 
@@ -55,6 +61,10 @@ The lab successfully collected logs from the connected systems.
 I was able to find Windows security events in Kibana and generate alerts for failed login attempts.
 
 I also used Kibana dashboards to view and monitor the collected events.
+
+![Alert Investigation Details](06-alert-investigation.png)
+
+![Detection Rule Monitoring](07-rule-monitoring-dashboard.png)
 
 # What I Learned
 
@@ -69,4 +79,4 @@ Through this project, I gained practical experience in:
 
 # Project Purpose
 
-This project was built for learning and practicing basic SOC analyst tasks in a home lab environment.
+This project was built for learning and practicing basic SOC analyst tasks in a home lab environment
