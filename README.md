@@ -50,6 +50,8 @@ I tested it by entering an incorrect Windows password and checked the generated 
 
 ![Rule Definition and KQL Query](03-rule-definition.png)
 
+![Rule Schedule and Execution](04-rule-schedule.png)
+
 # Potential Internal Linux SSH Brute Force Detected
 
 I also configured a rule to detect potential SSH brute-force activity on Linux.
@@ -61,6 +63,8 @@ The lab successfully collected logs from the connected systems.
 I was able to find Windows security events in Kibana and generate alerts for failed login attempts.
 
 I also used Kibana dashboards to view and monitor the collected events.
+
+![Alerts Dashboard Overview](05-alerts-dashboard.png)
 
 ![Alert Investigation Details](06-alert-investigation.png)
 
